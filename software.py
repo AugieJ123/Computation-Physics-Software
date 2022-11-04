@@ -179,8 +179,21 @@ class HomeScreen(QMainWindow):
             slope = np.gradient(horizontal_axis_values, vertical_axis_values)
             print(slope)
             correct_slope = all(element == slope[0] for element in slope)
+            self.ui.slope_value.clear()
             if correct_slope:
                 self.ui.slope_value.setText(str(round(slope[0], 4)))
+
+            else:
+                msg = QMessageBox()
+                msg.setWindowTitle("Error")
+                msg.setText(
+                    f"The slope of the points are not the same when rounded to the nearest whole number or a one decimal point.\n The slope are {slope}"
+                    )
+                msg.setIcon(QMessageBox.Warning)
+
+                x: int = msg.exec_()
+
+                return x
 
             return graph
 
@@ -222,6 +235,7 @@ class HomeScreen(QMainWindow):
             print(slope)
             correct_slope = all(round(element, 1) == round(slope[0], 1) for element in slope)
             if correct_slope:
+                self.ui.slope_value.clear()
                 self.ui.slope_value.setText(str(round(slope[0], 4)))
 
             return graph
