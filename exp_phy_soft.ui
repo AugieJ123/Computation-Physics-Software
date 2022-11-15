@@ -39,7 +39,7 @@
       </rect>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="pend_tab">
       <attribute name="title">
@@ -550,40 +550,40 @@ color: rgb(255, 255, 255);</string>
         <bool>false</bool>
        </attribute>
        <attribute name="horizontalHeaderDefaultSectionSize">
-        <number>86</number>
+        <number>100</number>
        </attribute>
        <column>
         <property name="text">
-         <string>y (m)</string>
+         <string>Mass (g)</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>t_1</string>
+         <string>F (N)</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>t_2</string>
+         <string>Loading</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>t</string>
+         <string>Unloading</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>T</string>
+         <string>Mean Reading</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>T^2</string>
+         <string>Extension (m)</string>
         </property>
        </column>
       </widget>
-      <widget class="QLineEdit" name="vert_11">
+      <widget class="QLineEdit" name="vert_16">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -616,7 +616,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>580</x>
-         <y>590</y>
+         <y>600</y>
          <width>231</width>
          <height>31</height>
         </rect>
@@ -670,7 +670,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_13">
+      <widget class="QLineEdit" name="vert_19">
        <property name="geometry">
         <rect>
          <x>270</x>
@@ -680,7 +680,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_12">
+      <widget class="QLineEdit" name="hori_14">
        <property name="geometry">
         <rect>
          <x>270</x>
@@ -690,7 +690,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_13">
+      <widget class="QLineEdit" name="hori_15">
        <property name="geometry">
         <rect>
          <x>340</x>
@@ -700,7 +700,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_14">
+      <widget class="QLineEdit" name="hori_17">
        <property name="geometry">
         <rect>
          <x>120</x>
@@ -710,7 +710,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_14">
+      <widget class="QLineEdit" name="vert_13">
        <property name="geometry">
         <rect>
          <x>190</x>
@@ -720,7 +720,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_15">
+      <widget class="QLineEdit" name="vert_14">
        <property name="geometry">
         <rect>
          <x>270</x>
@@ -730,7 +730,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_15">
+      <widget class="QLineEdit" name="hori_19">
        <property name="geometry">
         <rect>
          <x>270</x>
@@ -740,7 +740,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_16">
+      <widget class="QLineEdit" name="vert_17">
        <property name="geometry">
         <rect>
          <x>120</x>
@@ -783,7 +783,7 @@ color: rgb(255, 255, 255);</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_16">
+      <widget class="QLineEdit" name="hori_13">
        <property name="geometry">
         <rect>
          <x>190</x>
@@ -793,7 +793,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_17">
+      <widget class="QLineEdit" name="hori_20">
        <property name="geometry">
         <rect>
          <x>340</x>
@@ -803,7 +803,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_17">
+      <widget class="QLineEdit" name="vert_20">
        <property name="geometry">
         <rect>
          <x>340</x>
@@ -846,7 +846,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_19">
+      <widget class="QLineEdit" name="hori_16">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -856,7 +856,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_20">
+      <widget class="QLineEdit" name="hori_12">
        <property name="geometry">
         <rect>
          <x>120</x>
@@ -866,7 +866,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_19">
+      <widget class="QLineEdit" name="vert_11">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -876,7 +876,7 @@ color: rgb(255, 255, 255);</string>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_20">
+      <widget class="QLineEdit" name="vert_15">
        <property name="geometry">
         <rect>
          <x>340</x>
@@ -884,6 +884,27 @@ color: rgb(255, 255, 255);</string>
          <width>51</width>
          <height>21</height>
         </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="slope_value_2">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>596</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
        </property>
       </widget>
      </widget>
@@ -895,7 +916,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>450</x>
-         <y>10</y>
+         <y>20</y>
          <width>75</width>
          <height>23</height>
         </rect>
@@ -908,7 +929,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>250</x>
-         <y>340</y>
+         <y>350</y>
          <width>47</width>
          <height>13</height>
         </rect>
@@ -924,7 +945,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>510</y>
+         <y>520</y>
          <width>171</width>
          <height>20</height>
         </rect>
@@ -940,7 +961,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>60</y>
+         <y>70</y>
          <width>521</width>
          <height>201</height>
         </rect>
@@ -955,50 +976,30 @@ color: rgb(255, 255, 255);</string>
         <bool>false</bool>
        </property>
        <property name="columnCount">
-        <number>6</number>
+        <number>2</number>
        </property>
        <attribute name="horizontalHeaderCascadingSectionResizes">
         <bool>false</bool>
        </attribute>
        <attribute name="horizontalHeaderDefaultSectionSize">
-        <number>86</number>
+        <number>259</number>
        </attribute>
        <column>
         <property name="text">
-         <string>y (m)</string>
+         <string>Elasped Time (s)</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string>t_1</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>t_2</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>t</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>T</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>T^2</string>
+         <string>Temperatures</string>
         </property>
        </column>
       </widget>
-      <widget class="QLineEdit" name="vert_21">
+      <widget class="QLineEdit" name="vert_26">
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>600</y>
+         <y>610</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1008,7 +1009,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>580</x>
-         <y>60</y>
+         <y>70</y>
          <width>501</width>
          <height>501</height>
         </rect>
@@ -1027,7 +1028,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>580</x>
-         <y>580</y>
+         <y>590</y>
          <width>231</width>
          <height>31</height>
         </rect>
@@ -1048,7 +1049,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>650</y>
+         <y>660</y>
          <width>341</width>
          <height>31</height>
         </rect>
@@ -1065,7 +1066,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>390</y>
+         <y>400</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1075,37 +1076,17 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>550</y>
+         <y>560</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_23">
+      <widget class="QLineEdit" name="vert_29">
        <property name="geometry">
         <rect>
          <x>270</x>
-         <y>600</y>
-         <width>51</width>
-         <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="hori_22">
-       <property name="geometry">
-        <rect>
-         <x>270</x>
-         <y>390</y>
-         <width>51</width>
-         <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="hori_23">
-       <property name="geometry">
-        <rect>
-         <x>340</x>
-         <y>390</y>
+         <y>610</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1114,28 +1095,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLineEdit" name="hori_24">
        <property name="geometry">
         <rect>
-         <x>120</x>
-         <y>440</y>
-         <width>51</width>
-         <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="vert_24">
-       <property name="geometry">
-        <rect>
-         <x>190</x>
-         <y>550</y>
-         <width>51</width>
-         <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="vert_25">
-       <property name="geometry">
-        <rect>
          <x>270</x>
-         <y>550</y>
+         <y>400</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1144,18 +1105,58 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLineEdit" name="hori_25">
        <property name="geometry">
         <rect>
-         <x>270</x>
-         <y>440</y>
+         <x>340</x>
+         <y>400</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_26">
+      <widget class="QLineEdit" name="hori_27">
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>600</y>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_23">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_24">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_29">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_27">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>610</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1165,7 +1166,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>280</y>
+         <y>290</y>
          <width>341</width>
          <height>31</height>
         </rect>
@@ -1182,7 +1183,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>360</y>
+         <y>370</y>
          <width>191</width>
          <height>16</height>
         </rect>
@@ -1194,31 +1195,31 @@ color: rgb(255, 255, 255);</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_26">
+      <widget class="QLineEdit" name="hori_23">
        <property name="geometry">
         <rect>
          <x>190</x>
-         <y>390</y>
+         <y>400</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_27">
+      <widget class="QLineEdit" name="hori_30">
        <property name="geometry">
         <rect>
          <x>340</x>
-         <y>440</y>
+         <y>450</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_27">
+      <widget class="QLineEdit" name="vert_30">
        <property name="geometry">
         <rect>
          <x>340</x>
-         <y>600</y>
+         <y>610</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1228,7 +1229,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>10</y>
+         <y>20</y>
          <width>411</width>
          <height>23</height>
         </rect>
@@ -1241,7 +1242,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>190</x>
-         <y>600</y>
+         <y>610</y>
          <width>51</width>
          <height>21</height>
         </rect>
@@ -1251,50 +1252,71 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>190</x>
-         <y>440</y>
+         <y>450</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_29">
+      <widget class="QLineEdit" name="hori_26">
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>440</y>
+         <y>450</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="hori_30">
+      <widget class="QLineEdit" name="hori_22">
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>390</y>
+         <y>400</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_29">
+      <widget class="QLineEdit" name="vert_21">
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>550</y>
+         <y>560</y>
          <width>51</width>
          <height>21</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="vert_30">
+      <widget class="QLineEdit" name="vert_25">
        <property name="geometry">
         <rect>
          <x>340</x>
-         <y>550</y>
+         <y>560</y>
          <width>51</width>
          <height>21</height>
         </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="slope_value_3">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>584</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
        </property>
       </widget>
      </widget>
