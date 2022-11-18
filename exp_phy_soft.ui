@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1124</width>
-    <height>809</height>
+    <height>843</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,7 +39,7 @@
       </rect>
      </property>
      <property name="currentIndex">
-      <number>2</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="pend_tab">
       <attribute name="title">
@@ -550,7 +550,7 @@ color: rgb(255, 255, 255);</string>
         <bool>false</bool>
        </attribute>
        <attribute name="horizontalHeaderDefaultSectionSize">
-        <number>100</number>
+        <number>107</number>
        </attribute>
        <column>
         <property name="text">
@@ -1320,7 +1320,925 @@ color: rgb(255, 255, 255);</string>
        </property>
       </widget>
      </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Glass Prism</string>
+      </attribute>
+      <widget class="QLineEdit" name="hori_33">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="data_file_path_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>411</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Select data file...</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>370</y>
+         <width>191</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>HORIZONTAL AXIS DATA</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_36">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PlotWidget" name="graph_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>70</y>
+         <width>501</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="statusTip">
+        <string>Graph</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_37">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_39">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>520</y>
+         <width>171</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VERTICAL AXIS DATA</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>350</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>OR</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_37">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_31">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>590</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>The gradient of the graph is:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_35">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="table_graph_btn_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>290</y>
+         <width>341</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(53, 132, 228);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PLOT GRAPH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_33">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_34">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_40">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_35">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_40">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_39">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_31">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_34">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>521</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="statusTip">
+        <string>Data table</string>
+       </property>
+       <property name="showGrid">
+        <bool>true</bool>
+       </property>
+       <property name="sortingEnabled">
+        <bool>false</bool>
+       </property>
+       <property name="columnCount">
+        <number>6</number>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>96</number>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Trial No.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>i (degree)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>d (degree)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e (degree)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>d-e (degree)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>A (degree)</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QLineEdit" name="vert_32">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="no_table_graph_btn_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>660</y>
+         <width>341</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(53, 132, 228);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PLOT GRAPH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_32">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="slope_value_4">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>584</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="file_btn_4">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>20</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_36">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_38">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_38">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Concave Mirror</string>
+      </attribute>
+      <widget class="QLineEdit" name="vert_43">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_46">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_48">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_47">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_41">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>350</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>OR</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_50">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>590</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>The gradient of the graph is:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="data_file_path_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>411</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Select data file...</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_42">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="table_graph_btn_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>290</y>
+         <width>341</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(53, 132, 228);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PLOT GRAPH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_49">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_48">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_41">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_42">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_45">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PlotWidget" name="graph_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>70</y>
+         <width>501</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="statusTip">
+        <string>Graph</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_45">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_44">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>560</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_49">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_47">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="slope_value_5">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>584</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_50">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="vert_46">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>610</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>521</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="statusTip">
+        <string>Data table</string>
+       </property>
+       <property name="showGrid">
+        <bool>true</bool>
+       </property>
+       <property name="sortingEnabled">
+        <bool>false</bool>
+       </property>
+       <property name="columnCount">
+        <number>8</number>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>158</number>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Trial No.</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Concave mirror P (cm)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Object O (cm)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Image I (cm)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>1/v (cm^-1)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>1/u (cm^-1)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>uv (cm^2)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>u+v (cm)</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QLineEdit" name="hori_44">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="no_table_graph_btn_5">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>660</y>
+         <width>341</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(53, 132, 228);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PLOT GRAPH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>370</y>
+         <width>191</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>HORIZONTAL AXIS DATA</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="hori_43">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>400</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="file_btn_5">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>20</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>520</y>
+         <width>171</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VERTICAL AXIS DATA</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
     </widget>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>814</x>
+      <y>763</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Developed by :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>933</x>
+      <y>763</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nyakeh Gabriel Allieu</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
